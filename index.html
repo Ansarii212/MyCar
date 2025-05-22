@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>كارد سيارة</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: row-reverse;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      margin-bottom: 20px;
+      max-width: 650px;
+      width: 100%;
+    }
+
+    .card img {
+      flex-basis: 50%;
+      width: calc(100% - 40px);
+      height: 200px;
+      object-fit: cover;
+      margin: 20px;
+      border-radius: 12px;
+      box-sizing: border-box;
+    }
+
+    .details {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-basis: 50%;
+    }
+
+    .details h3 {
+      margin: 0 0 10px;
+      font-size: 20px;
+      color: #222;
+    }
+
+    .details p {
+      margin: 0 0 10px;
+      color: #555;
+    }
+
+    .price {
+      color: #0a9c4a;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .details button {
+      padding: 10px 20px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      align-self: start;
+    }
+
+    .details button:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="https://cdn.motor1.com/images/mgl/0ANQW/s3/2025-toyota-corolla-front.jpg" alt="تويوتا كورولا 2025" />
+    <div class="details">
+      <h3>تويوتا كورولا 2025</h3>
+      <p>حالة ممتازة - ممشى قليل - لون فضي - وارد الخليج.</p>
+      <div class="price">75,000 ر.س</div>
+      <button>عرض التفاصيل</button>
+    </div>
+  </div>
+
+</body>
+</html>
